@@ -4,7 +4,7 @@ import friends from 'friends.json';
 import transactions from 'transactions.json';
 
 import { Profile } from "./Profile/Profile";
-import { Statistics } from './Statistics/Statistcs';
+import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 
@@ -24,6 +24,6 @@ export const App = () => {
       <FriendList friends={friends} />
 
       <TransactionHistory items={transactions}/>
-      </>
+    </>
   );
 };
